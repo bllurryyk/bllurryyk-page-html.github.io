@@ -1,0 +1,72 @@
+body {background-color: black;}
+
+.toolbar {
+    background-color: #C2185B;
+    width: 100%;
+}
+
+.toolbar {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu button {
+    color: #C2185B;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 4px;
+    float: left;
+    margin-left: 5px;
+}
+
+.toolbar2 {
+    background-color: #212121;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards li {
+    background-color: #424242;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.temp {
+    width: 10%;
+}
+
+.card-menu {
+    width: 20%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+}
+
+.img-icon {
+    width: 60%;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-menu h1 {
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-menu h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

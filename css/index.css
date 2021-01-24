@@ -38,3 +38,22 @@ nav li{
     font-size: 36px;
 }
 
+
+.div-menu-idiomas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu-idiomas button {
+    color: #C2185B;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.icon {
+    width: 10%;
+}
