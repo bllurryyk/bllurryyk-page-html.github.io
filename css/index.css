@@ -39,6 +39,11 @@ nav li{
     cursor: pointer;
 }
 
+.menu button:hover {
+    font-size: 56px;
+    transition: 100ms;
+}
+
 
 .div-menu-idiomas {
     display: flex;
