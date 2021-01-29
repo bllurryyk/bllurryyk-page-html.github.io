@@ -29,6 +29,7 @@ nav li{
     background-color: #FF003B;
     border: none;
     font-size: 36px;
+    cursor: pointer;
 }
 
 .banner {

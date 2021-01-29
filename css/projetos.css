@@ -3,24 +3,62 @@ body {background-color: black;}
 .toolbar {
     background-color: #C2185B;
     width: 100%;
-}
-
-.toolbar {
-    display: inline-block;
+    height: 60px;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin-left: 35px;
+    
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: 30px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 100ms;
+}
+
+nav a:hover::before {
+    width: 100%;
 }
 
 .menu button {
-    color: #C2185B;
-    background-color: white;
-    border: 10px solid white;
-    border-radius: 4px;
+    color: white;
+    background-color: #C2185B;
+    border: none;
     float: left;
-    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 22px;
+    cursor: pointer;
 }
 
 .toolbar2 {
@@ -56,6 +94,7 @@ body {background-color: black;}
     margin-bottom: 20px;
     text-align: center;
     display: inline-block;
+    cursor: pointer;
 }
 
 .img-icon {
@@ -73,4 +112,17 @@ body {background-color: black;}
 
 .card-menu h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-right: 85px;
+    width: 10%;
+    cursor: pointer;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
 }
