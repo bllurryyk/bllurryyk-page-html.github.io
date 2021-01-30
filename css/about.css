@@ -1,0 +1,108 @@
+/* inicio do menu */
+.toolbar {
+    background-color: #C2185B;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+    margin-right: 85px;
+    width: 10%;
+    cursor: pointer;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin-left: 35px;
+    
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: 30px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 100ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.menu button {
+    color: white;
+    background-color: #C2185B;
+    border: none;
+    float: left;
+    margin-right: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* fim do menu */
+
+.section-info {
+    background-color: black;
+    margin: 10px 10px 0px 10px;
+    border-radius: 4px;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center button {
+    margin-top: 14px;
+    color: #C2185B;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.avatar {
+    width: 25%;
+    margin: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
