@@ -6,7 +6,7 @@ nav li{
 }
 
 .div-banner {
-    /* border: 1px solid white;
+    /* border: 1px solid #404041;
     border-radius: 4px; */
 }
 
@@ -25,15 +25,15 @@ nav li{
 
 /* .menu a {
     color: #C2185B;
-    background-color: white;
-    border: 10px solid white;
+    background-color: #404041;
+    border: 10px solid #404041;
     border-radius: 4px;
 } */
 
 .menu button {
     color: #C2185B;
-    background-color: white;
-    border: 10px solid white;
+    background-color: #404041;
+    border: 10px solid #404041;
     border-radius: 4px;
     font-size: 36px;
 }

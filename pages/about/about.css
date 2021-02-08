@@ -1,0 +1,148 @@
+body {background-color: #404041;}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.image-front {
+    position: relative;
+    width: 30%;
+    margin: 30px 30px 0 0;
+    float: right;
+}
+
+.header {
+    /* background-color: #8488CF; */
+    background-color: black;
+    width: 100%;
+    height: 380px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin-left: 28px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.menu a {
+    /* color: #404041; */
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a:hover {
+    color: #96AEFF;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    margin-bottom: 90px;
+    background-color: #96AEFF;
+    position: absolute;
+    top: -30px;
+    width: 0%;
+    transition: all ease-in-out 100ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+#page-atual {
+    color: #96AEFF;
+}
+
+.title {
+    position: relative;
+    top: 120px;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: #404041; */
+    color: white;
+}
+
+.subtitle {
+    position: relative;
+    top: 120px;
+    margin-left: 468px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: #404041; */
+    color: white;
+}
+
+.desc {
+    position: relative;
+    top: 120px;
+    margin-left: 468px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: #404041;     */
+    color: white;
+}
+
+.exp-body {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+
+.title-body {
+    position: relative;
+    top: 30px;
+    margin-left: 30px;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #404041;
+    font-weight: bold;
+}
+
+.title-body-variant {
+    position: relative;
+    top: 30px;
+    float: right;
+    margin-left: 30px;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #404041;    
+}
+
+.cursos-body {
+    background-color: #0C92AF;
+    width: 100%;
+    height: 500px;
+}

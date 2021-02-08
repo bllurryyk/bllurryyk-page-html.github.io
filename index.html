@@ -5,38 +5,40 @@
     <head>
         <meta charset="UTF-8">
         <title>👻 Bllurryyk Page 👻</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="pages/home/reset.css">
+        <link rel="stylesheet" href="pages/home/home.css">
         <link rel="icon" type="image/png" href="src/icons/favicon.ico"/>
     </head>    
 
     <body>
         <header>
-            <div class='div-banner'>
-                <img src='src/home/banner-cropped.png' class='banner'>
-            </div>
+            <section class="title-header">
+                <nav>
+                    <ul class="menu-header">
+                        <li><img src="src/icons/flat/github.png" class="icons"></li>
+                        <li><a href="#">bllurryyk</a></li>
+                    </ul>
+                </nav>
+            </section>
         </header>
         <main>
-            <div class='div-menu'>
+            <section class="header">
                 <nav>
-                    <ul class='menu'>
-                        <!-- <li><a href='pages/projetos.html'>Projetos</a></li> -->
-                        <li><button onclick="location.href='pages/projetos.html'">Projetos</button></li>
-                        <li><button onclick="location.href='pages/sobre.html'">Sobre Mim</button></li>
-                        <li><button onclick="location.href='pages/redcatgames.html'">Red Cat Games</button></li>
-                        <li><button onclick="location.href='pages/donate.html'">Apoie-me</button></li>
+                    <ul class="menu">
+                        <li><a href="#" id="page-atual">Home</a></li>
+                        <li><a href="#">Sobre Mim</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Apoie-me</a></li>
+                        <li><a href="#">Red Cat Games</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div class='div-menu-idiomas'>
-                <nav>
-                    <ul class='menu-idiomas'>
-                        <!-- <li><button><img src='src/icons/brazil.png' class='icon'></button></li>
-                        <li><button><img src='src/icons/united-states.png' class='icon'></button></li> -->
-                    </ul>
-                </nav>
-            </div>
+            </section>
         </main>
+        <footer>
+            <div>
+                Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </div>
+        </footer>
     </body>
 </html>
 

@@ -16,8 +16,8 @@ body {background-color: black;}
 
 .menu button {
     color: #C2185B;
-    background-color: white;
-    border: 10px solid white;
+    background-color: #404041;
+    border: 10px solid #404041;
     border-radius: 4px;
     float: left;
     margin-left: 5px;
@@ -25,7 +25,7 @@ body {background-color: black;}
 
 .toolbar2 {
     background-color: #212121;
-    color: white;
+    color: #404041;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -35,7 +35,7 @@ body {background-color: black;}
 
 .cards li {
     background-color: #424242;
-    color: white;
+    color: #404041;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
